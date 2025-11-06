@@ -1,0 +1,26 @@
+my-repo/
+├─ index.html
+├─ meet-and-greet.html  ← new page
+├─ css/
+└─ js/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet & Greet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Meet & Greet</h1>
+  <p>Welcome! Fill out the form below to join our meet and greet.</p>
+  <form action="/submit-form" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <button type="submit">Join</button>
+  </form>
+  <a href="index.html">Back to Home</a>
+</body>
+</html>
